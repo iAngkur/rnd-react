@@ -1,9 +1,14 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
+import ProfileCard from "./Day01/ProfileCard";
+import ProductCard from "./Day02/ProductCard";
+import ContactForm from "./Day03/ContactForm";
 
 export default function ChakraMain() {
   return (
-    <Box p={4} textAlign="center">
-      <Text fontSize="2xl">Hello from Chakra!</Text>
+    <Box>
+      {/* <ProfileCard /> */}
+      {/* <ProductCard /> */}
+      <ContactForm />
     </Box>
   );
 }
