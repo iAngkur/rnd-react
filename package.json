@@ -14,15 +14,20 @@
     "@chakra-ui/react": "^2.10.9",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-brands-svg-icons": "^7.0.0",
+    "@fortawesome/free-regular-svg-icons": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.3",
     "@hookform/resolvers": "^5.2.1",
     "@tailwindcss/vite": "^4.1.11",
     "antd": "^5.26.6",
     "framer-motion": "^12.23.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-hook-form": "^7.61.1",
+    "react-hook-form": "^7.62.0",
     "tailwindcss": "^4.1.11",
-    "zod": "^4.0.14"
+    "zod": "^4.0.17"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

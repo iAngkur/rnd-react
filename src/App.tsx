@@ -16,7 +16,9 @@
 
 // import { ChakraProvider } from "@chakra-ui/react";
 // import ChakraMain from "./chakraui/ChakraMain";
-// import Index from "./reactformhookzod/Index";
+
+// React Hook Form
+import Index from "./reactformhookzod/Index";
 
 // Tailwind
 import Button from "./tailwind/Day01/Button";
@@ -24,6 +26,7 @@ import Card from "./tailwind/Day01/Card";
 import Navbar from "./tailwind/Day02/Navbar";
 import QuoteBox from "./tailwind/Day02/QuoteBox";
 import Search from "./tailwind/Day03/Layout";
+import Day04 from "./tailwind/Day04/Day04";
 
 // import './App.css'
 
@@ -52,12 +55,18 @@ function App() {
     // <Index />
 
     // Tailwind
+    // <>
+    //   {/* <Button /> */}
+    //   {/* <Card /> */}
+    //   {/* <Navbar /> */}
+    //   {/* <QuoteBox /> */}
+    //   {/* <Search /> */}
+    //   {/* <Day04 /> */}
+    // </>
+
+    // React Hook Form
     <>
-      {/* <Button /> */}
-      {/* <Card /> */}
-      {/* <Navbar /> */}
-      {/* <QuoteBox /> */}
-      <Search />
+      <Index />
     </>
   );
 }
