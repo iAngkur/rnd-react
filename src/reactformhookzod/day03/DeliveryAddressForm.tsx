@@ -27,13 +27,17 @@ function DeliveryAddressForm() {
         <TextField
           id="streetAddress"
           label="Street Address"
-          {...register("address.streetAddress")}
+          {...register("address.streetAddress", {
+            required: "Street Address is required",
+          })}
           error={errors.address?.streetAddress}
         />
         <TextField
           id="city"
           label="City"
-          {...register("address.city")}
+          {...register("address.city", {
+            required: "City is required",
+          })}
           error={errors.address?.city}
         />
       </div>
@@ -42,13 +46,13 @@ function DeliveryAddressForm() {
           id="landmark"
           label="Landmark"
           {...register("address.landmark")}
-          error={errors.address?.landmark}
+          // error={errors.address?.landmark}
         />
         <TextField
           id="state"
           label="State"
           {...register("address.state")}
-          error={errors.address?.state}
+          // error={errors.address?.state}
         />
       </div>
     </fieldset>

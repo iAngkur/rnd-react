@@ -1,4 +1,9 @@
-import { FormProvider, useForm, type UseFormReturn } from "react-hook-form";
+import {
+  FormProvider,
+  useForm,
+  type UseFormReturn,
+  type FieldErrors,
+} from "react-hook-form";
 import CheckoutForm, { type CheckoutFormType } from "./CheckoutForm";
 import AddressForm, {
   type DeliveryAddressFormType,
@@ -37,17 +42,23 @@ function FoodDeliveryFormRHKWithResuableComponents() {
   const {
     register,
     handleSubmit,
-    control,
+    control, // Pass the control prop to the child components to have their own state mangement.
     // formState: { isSubmitting },
+    // getFieldState, // It's called on form Submit
+    watch, // subscribe children state changes
   } = methods;
+
+  const mobile = watch("mobile");
 
   const onSubmit = async (data: FoodDeliveryFormType) => {
     await new Promise((resolve) => setTimeout(resolve, 3000));
     console.log("form data:: ", { ...data });
   };
 
-  const onError = (errors: any) => {
+  const onError = (errors: FieldErrors) => {
     console.log("Form errors: ", { ...errors });
+    // console.log(getFieldState("customerName"));
+    // console.log(getFieldState("address.city"));
   };
 
   return (

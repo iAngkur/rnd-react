@@ -19,6 +19,7 @@
 
 // React Hook Form
 import Index from "./reactformhookzod/Index";
+import ReactQuery from "./reactquery/ReactQuery";
 
 // Tailwind
 import Button from "./tailwind/Day01/Button";
@@ -65,9 +66,11 @@ function App() {
     // </>
 
     // React Hook Form
-    <>
-      <Index />
-    </>
+    // <>
+    //   <Index />
+    // </>
+
+    <ReactQuery />
   );
 }
 
