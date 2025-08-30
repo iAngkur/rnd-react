@@ -18,6 +18,7 @@
 // import ChakraMain from "./chakraui/ChakraMain";
 
 // React Hook Form
+import { BrowserRouter } from "react-router-dom";
 import Index from "./reactformhookzod/Index";
 import ReactQuery from "./reactquery/ReactQuery";
 
@@ -33,44 +34,9 @@ import Day04 from "./tailwind/Day04/Day04";
 
 function App() {
   return (
-    // <Day01 />
-    // <DashboardHeader />
-    // <Day02 />
-    // <AdminLayout />
-    // <Day03 />
-    // <RegistrationForm />
-    // <Day04 />
-    // <ProductTable />
-    // <Day05 />
-    // <EnhancedProductTable />
-    // <Day06 />
-    // <ProductDetails />
-    // <AdminLayout>
-    //   <ProductList />
-    // </AdminLayout>
-
-    // Chakra UI
-    // <ChakraProvider>
-    //   <ChakraMain />
-    // </ChakraProvider>
-    // <Index />
-
-    // Tailwind
-    // <>
-    //   {/* <Button /> */}
-    //   {/* <Card /> */}
-    //   {/* <Navbar /> */}
-    //   {/* <QuoteBox /> */}
-    //   {/* <Search /> */}
-    //   {/* <Day04 /> */}
-    // </>
-
-    // React Hook Form
-    // <>
-    //   <Index />
-    // </>
-
-    <ReactQuery />
+    <BrowserRouter>
+      <ReactQuery />
+    </BrowserRouter>
   );
 }
 

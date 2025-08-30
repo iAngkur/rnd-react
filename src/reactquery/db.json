@@ -6,14 +6,99 @@
       "alterEgo": "Bruce Wayne"
     },
     {
-      "id": 2, 
+      "id": 2,
       "name": "Superman",
       "alterEgo": "Clark Kent"
     },
     {
       "id": 3,
       "name": "Wonder Woman",
-      "alterEgo": "Princes Diana"
+      "alterEgo": "Diana Prince"
+    },
+    {
+      "id": 4,
+      "name": "Flash",
+      "alterEgo": "Barry Allen"
+    },
+    {
+      "id": 5,
+      "name": "Green Lantern",
+      "alterEgo": "Hal Jordan"
+    },
+    {
+      "id": 6,
+      "name": "Aquaman",
+      "alterEgo": "Arthur Curry"
+    },
+    {
+      "id": 7,
+      "name": "Cyborg",
+      "alterEgo": "Victor Stone"
+    },
+    {
+      "id": 8,
+      "name": "Green Arrow",
+      "alterEgo": "Oliver Queen"
+    },
+    {
+      "id": 9,
+      "name": "Martian Manhunter",
+      "alterEgo": "J'onn J'onzz"
+    },
+    {
+      "id": 10,
+      "name": "Hawkgirl",
+      "alterEgo": "Shayera Hol"
+    },
+    {
+      "id": 11,
+      "name": "Spider-Man",
+      "alterEgo": "Peter Parker"
+    },
+    {
+      "id": 12,
+      "name": "Iron Man",
+      "alterEgo": "Tony Stark"
+    },
+    {
+      "id": 13,
+      "name": "Captain America",
+      "alterEgo": "Steve Rogers"
+    },
+    {
+      "id": 14,
+      "name": "Thor",
+      "alterEgo": "Thor Odinson"
+    },
+    {
+      "id": 15,
+      "name": "Hulk",
+      "alterEgo": "Bruce Banner"
+    },
+    {
+      "id": 16,
+      "name": "Black Widow",
+      "alterEgo": "Natasha Romanoff"
+    },
+    {
+      "id": 17,
+      "name": "Wolverine",
+      "alterEgo": "James Howlett"
+    },
+    {
+      "id": 18,
+      "name": "Storm",
+      "alterEgo": "Ororo Munroe"
+    },
+    {
+      "id": 19,
+      "name": "Doctor Strange",
+      "alterEgo": "Stephen Strange"
+    },
+    {
+      "id": 20,
+      "name": "Black Panther",
+      "alterEgo": "T'Challa"
     }
   ]
 }

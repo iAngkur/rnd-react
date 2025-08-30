@@ -4,6 +4,7 @@ import axios from "axios";
 function SuperHeroesPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState([]);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     axios
@@ -13,6 +14,7 @@ function SuperHeroesPage() {
       })
       .catch((err) => {
         console.error("API Error:", err.message);
+        setError(err.message);
       })
       .finally(() => {
         setIsLoading(false);
@@ -21,6 +23,10 @@ function SuperHeroesPage() {
 
   if (isLoading) {
     return <div>Loading...</div>;
+  }
+
+  if(error) {
+    return <h2>{error}</h2>
   }
 
   if (!isLoading && data.length === 0) {
